@@ -1,1 +1,5 @@
-# Step 2. In this_file, add a `[build]` section and add `publish = "site"` and `functions = "functions"` values #
+# Settings in the [build] context are global and are applied to all contexts
+# unless otherwise overridden by more specific contexts.
+[build]
+  publish = "site"
+  functions = "functions"
